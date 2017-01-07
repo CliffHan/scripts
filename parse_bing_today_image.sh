@@ -11,7 +11,7 @@ json=`curl -s $bing_img_json_url`
 prop='url'
 picurl=`jsonval`
 
-echo $picurl
+echo "http://www.bing.com$picurl"
 
 ### download it if you want
 #`curl -s -X GET $picurl -o $1.jpg`
